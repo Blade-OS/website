@@ -15,8 +15,8 @@ enableCopyright = false
 
 # search
 [search]
-on = false
-global = false 
+on = true
+global = true 
 
 # Site logo
 [logo]
