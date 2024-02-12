@@ -14,7 +14,6 @@ First, You'll need to download the latest Blade OS ISO, Which can be found here.
 
 ## Preparing the installation media
 {{< tip "warning" >}} Burning to external media could potentially erase it. Please make sure you have everything backed up before proceeding. {{< /tip >}}
-{{< tip "warning" >}} Burning to a CD/DVD disc is not recommended. It could be slow & could take awhile to install Blade OS. {{< /tip >}}
 
 In order to install Blade OS, You'll need an installation media. There's multiple programs that can get the job done.
 
@@ -31,6 +30,7 @@ Etcher is an easy to use & quick way to burn ISO's into USB flash drives. It's v
 
 # Ventoy (Windows, Mac, Linux)
 Ventoy is a tool that allows you to multi-boot ISO's in one drive. It's very easy to use, Just drag and drop the ISO into the drive.
+
 {{< button "https://www.ventoy.net/" "Download" >}}
 
 # Using a virtual machine (All platforms)
@@ -66,16 +66,16 @@ There's multiple ways to partition your drive.
 
 {{< tip "warning" >}} Make sure you have selected the right drive! Installing to the wrong drive can result in data loss. {{< /tip >}}
 
-**Erase Disk (Default)**
+**Erase Disk (Default)**:
 This will erase everything off your drive & install Blade OS.
 
-**Replace a partition**
+**Replace a partition**:
 This will erase a partition off your drive and installs Blade OS on it. Great for dual-booting.
 
-**Install alongside (Dual-booting)**
+**Install alongside (Dual-booting)**:
 This will shrink your current operating system to install Blade OS. This allows you to use both without erasing data.
 
-**Manual partitioning (Advanced)**
+**Manual partitioning (Advanced)**:
 This will allow you to partition your drive manually. This option should usually be avoided unless you know what you're doing.
 
 ## Confirm changes before installation
