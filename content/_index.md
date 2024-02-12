@@ -1,14 +1,12 @@
 +++
-title = "Welcome!"
 [data]
 baseChartOn = 3
 colors = ["#627c62", "#11819b", "#ef7f1a", "#4e1154"]
 columnTitles = ["Section", "Status", "Author"]
 fileLink = "content/projects.csv"
-title = "Projects"
 +++
 
-{{< tip "warning" >}} Blade OS is a work in progress operating system, Which means it's not fully complete yet. Try it at your own risk. {{< /tip >}}
+{{< tip "warning" >}} Blade OS is in work in progress. Try it at your own risk. {{< /tip >}}
 
 {{< block "grid-2" >}}
 {{< column >}}

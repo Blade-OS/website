@@ -11,7 +11,7 @@ showLineNumbers = false
 
 # Defaults to true if not set
 # Enable copyRight Footer Stamp. Takes in attribution
-enableCopyright = false
+enableCopyright = true
 
 # search
 [search]
@@ -28,3 +28,7 @@ global = true
   iconLight = "images/GitHubMarkLight.svg"
   iconDark = "images/GitHubMarkDark.svg"
   url = "https://github.com/Blade-OS"
+
+[author]
+  name = "The Blade OS Authors"
+  url = "https://github.com/orgs/Blade-OS/people"

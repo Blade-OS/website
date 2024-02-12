@@ -3,3 +3,8 @@
   name = "Docs"
   weight = 2
   url = "docs/"
+
+  [[main]]
+  name = "Download"
+  weight = 3
+  url = "download/"

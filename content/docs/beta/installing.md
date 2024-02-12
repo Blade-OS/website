@@ -1,5 +1,6 @@
 +++
 title = "Installation"
+description = "An in-depth installation guide for Blade OS."
 weight = 2
 +++
 

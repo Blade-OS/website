@@ -2,7 +2,7 @@
 
 ## Things still needed done
 * Blog
-* Direct downloads (Including page)
+* Direct downloads
 * Documentation
 
 ## Credits
