@@ -11,9 +11,11 @@ weight = 2
 ## Download the ISO
 First, You'll need to download the latest Blade OS ISO, Which can be found here.
 
-{{< button "https://github.com/Blade-OS/os/actions" "Download ISO" >}}
+{{< button "../../../download" "Download Blade OS" >}}
 
 ## Preparing the installation media
+{{< tip >}} If you're using a virtual machine, You may skip this step. {{< /tip >}}
+
 {{< tip "warning" >}} Burning to external media could potentially erase it. Please make sure you have everything backed up before proceeding. {{< /tip >}}
 
 In order to install Blade OS, You'll need an installation media. There's multiple programs that can get the job done.
@@ -34,11 +36,8 @@ Ventoy is a tool that allows you to multi-boot ISO's in one drive. It's very eas
 
 {{< button "https://www.ventoy.net/" "Download" >}}
 
-# Using a virtual machine (All platforms)
-Using a virtual machine is the recommended way to try out Blade OS. It's very easy & simple to setup, and it won't affect your real machine. Virtual machines can be deleted at any time.
-
 ## Entering the BIOS
-Depending on your system, You'll need to press a certian key while booting up your system to access the BIOS. Most devices can boot into it by using F9, F12, or DEL.
+Depending on your system, You'll need to press a certain key while booting up your system to access the BIOS. Most devices can boot into it by using F9, F12, or DEL.
 
 ## Disable secure boot (UEFI only)
 Secure boot can prevent you from booting in & installing Blade OS. In order to disable it, You'll need to go to the Security section of your BIOS, and disable it.
@@ -87,4 +86,4 @@ Make sure everything is right before installing. Once you have confirmed, Press 
 Blade OS is now installing. This might take awhile depending on your system's speeds. Please don't interrupt this process.
 ![Installing page](../../../images/docs/calamares-install.png)
 
-Once the installation has completed, Remove the drive & reboot your system. Blade OS is now installed!
+Once the installation has completed, Remove the drive & reboot your system. Blade OS has been installed!

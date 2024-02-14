@@ -10,4 +10,4 @@ Welcome to the Blade OS Beta! We're excited to show you the development process 
 ## Download the ISO
 ISO's can be found in our GitHub actions. Direct downloads will be coming soon.
 
-{{< button "https://github.com/Blade-OS/os/actions" "Download ISO" >}}{{< button "installing/" "How-to install" >}}
+{{< button "../../../download" "Download ISO" >}}{{< button "installing/" "How-to install" >}}
