@@ -6,7 +6,7 @@ columnTitles = ["Section", "Status", "Author"]
 fileLink = "content/projects.csv"
 +++
 
-{{< tip "warning" >}} Blade OS is in work in progress. Try it at your own risk. {{< /tip >}}
+{{< tip >}} The Blade OS public preview is out! Check out our downloads to install. {{< /tip >}}
 
 {{< block "grid-2" >}}
 {{< column >}}
@@ -17,9 +17,9 @@ A brand new distro based on **Debian** that has everything pre-configured.
 {{< /column >}}
 
 {{< column >}}
-![Blade OS with GNOME Desktop](/images/docs/gnome-desktop.png)
+![Blade OS with GNOME Desktop](/images/docs/v24/gnome-desktop.png)
 {{< /column >}}
 {{< /block >}}
 
-##### {{< button "https://github.com/Blade-OS/os/actions" "Download Beta" >}}{{< button "docs/" "Read Documentation" >}}
-*Note: This project is subject to change. Please do not use on production machines. GNOME is the only available desktop at this time. More will come at a later date.*
+##### {{< button "https://github.com/Blade-OS/os/actions" "Download" >}}{{< button "docs/" "Documentation" >}}
+*Note: GNOME is the only available desktop at this time. More will come at a later date.*

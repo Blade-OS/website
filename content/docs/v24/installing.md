@@ -4,14 +4,12 @@ description = "An in-depth installation guide for Blade OS."
 weight = 2
 +++
 
-{{< tip "warning" >}} Blade OS is a work in progress operating system, which means it's not fully complete yet. It's not recommended to install it on any production machines you have. It is highly recommended to install on a secondary or virtual machine. {{< /tip >}}
-
 {{< tip "warning" >}} Installing Blade OS can erase your hard drive. Please make sure you have everything backed up before proceeding. {{< /tip >}}
 
 ## Download the ISO
 First, You'll need to download the latest Blade OS ISO, Which can be found here.
 
-{{< button "../../../download" "Download Blade OS" >}}
+{{< button "../../../download" "Download" >}}
 
 ## Preparing the installation media
 {{< tip >}} If you're using a virtual machine, You may skip this step. {{< /tip >}}
@@ -49,20 +47,20 @@ To change your boot order, Go to the boot section of your BIOS. Then sort your B
 ## Booting into Blade OS
 Upon saving changes, You'll be given a few options on the bootloader.
 
-![Blade OS bootloader (UEFI)](../../../images/docs/bootloader.png)
+![Blade OS bootloader (UEFI)](../../../images/docs/v24/bootloader.png)
 
 Select "Live system" to boot. If things aren't working, Try fail-safe mode. You should see a loading screen with the Blade OS logo.
 
 ## Try out Blade OS before installing
 We recommend you trying out Blade OS before installing it. Make sure all apps work & your system runs smoothly with it.
-![Blade OS with GNOME desktop](../../../images/docs/gnome-desktop.png)
+![Blade OS with GNOME desktop](../../../images/docs/v24/gnome-desktop.png)
 
 ## Run the installer
 If you're ready to install Blade OS to your system, close all apps & open the "Install Blade" app. Set everything up to your liking until you reach the partitioning section.
 
 ## Partition the drive
 There's multiple ways to partition your drive.
-![Installer paritions page](../../../images/docs/calamares-drives.png)
+![Installer paritions page](../../../images/docs/v24/calamares-drives.png)
 
 {{< tip "warning" >}} Make sure you have selected the right drive! Installing to the wrong drive can result in data loss. {{< /tip >}}
 
@@ -80,10 +78,10 @@ This will allow you to partition your drive manually. This option should usually
 
 ## Confirm changes before installation
 Make sure everything is right before installing. Once you have confirmed, Press the install button.
-![Installer summary page](../../../images/docs/calamares-summary.png)
+![Installer summary page](../../../images/docs/v24/calamares-summary.png)
 
 ## Finish installation
 Blade OS is now installing. This might take awhile depending on your system's speeds. Please don't interrupt this process.
-![Installing page](../../../images/docs/calamares-install.png)
+![Installing page](../../../images/docs/v24/calamares-install.png)
 
 Once the installation has completed, Remove the drive & reboot your system. Blade OS has been installed!
