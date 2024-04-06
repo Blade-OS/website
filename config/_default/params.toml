@@ -20,8 +20,8 @@ global = true
 
 # Site logo
 [logo]
-  lightMode = "images/logoweb.png"
-  darkMode = "images/logoweb.png"
+  lightMode = "images/logodark.png"
+  darkMode = "images/logolight.png"
 
 [source]
   name = "GitHub"
