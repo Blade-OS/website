@@ -9,12 +9,12 @@ fileLink = "content/projects.csv"
 weight = 1
 +++
 
-## Blade OS 24 - Blissful (Final Beta)
-Download the final beta of Blade OS.
+## Blade OS 24 - Blissful
+Download the first version of Blade OS.
 
 {{< tip >}} If you run into any problems, please create an [issue](https://github.com/Blade-OS/os/issues/new/choose "Open an issue") on our GitHub page. {{< /tip >}}
 
-{{< button "https://github.com/Blade-OS/os/actions" "Download from GitHub" >}}
+{{< button "https://deb.bladeos.xyz/dists/bookworm/iso/blade.iso" "Download Directly" >}}{{< button "https://github.com/Blade-OS/os/actions" "From GitHub" >}}
 
 ### Other resources
 {{< button "../docs/v24/installing/" "How-to install" >}}

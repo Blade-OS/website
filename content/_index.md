@@ -6,7 +6,7 @@ columnTitles = ["Section", "Status", "Author"]
 fileLink = "content/projects.csv"
 +++
 
-{{< tip >}} The Blade OS final beta is out! Check out our downloads to install. {{< /tip >}}
+{{< tip >}} Blade OS is in release preview! Check out the downloads to try it out. {{< /tip >}}
 
 {{< block "grid-2" >}}
 {{< column >}}
@@ -22,4 +22,3 @@ A brand new distro based on **Debian** that has everything pre-configured.
 {{< /block >}}
 
 ##### {{< button "download/" "Download" >}}{{< button "docs/" "Documentation" >}}
-*Blade OS is currently in the final beta. If you decide to try it out, please send us feedback via our GitHub.*
