@@ -6,7 +6,7 @@ columnTitles = ["Section", "Status", "Author"]
 fileLink = "content/projects.csv"
 +++
 
-{{< tip >}} Blade OS is in release preview! Check out the downloads to try it out. {{< /tip >}}
+{{< tip >}} After 6 months of active development, Blade OS is now officially out! We hope you enjoy it!{{< /tip >}}
 
 {{< block "grid-2" >}}
 {{< column >}}
@@ -14,6 +14,17 @@ fileLink = "content/projects.csv"
 # Welcome to **Blade OS**!
 
 A brand new distro based on **Debian** that has everything pre-configured.
+
+### Features
+* Pre-Configured GNOME Desktop for ease of use
+* A bunch of useful utilities & apps pre-installed
+* Based on the rock-solid stability of Debian
+
+### Install apps easily!
+* Software allows you to install & update your apps with ease
+* Install your favorites with the secure and isolated Flatpak
+* Doesn't support Flatpak? Since we're based on Debian, you can install the packaged version of it!
+
 {{< /column >}}
 
 {{< column >}}
@@ -21,4 +32,4 @@ A brand new distro based on **Debian** that has everything pre-configured.
 {{< /column >}}
 {{< /block >}}
 
-##### {{< button "download/" "Download" >}}{{< button "docs/" "Documentation" >}}
+##### {{< button "download/" "Download Now!" >}}

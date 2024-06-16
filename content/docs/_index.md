@@ -3,6 +3,6 @@ title = "Documentation"
 weight = 1
 +++
 
-{{< tip >}} Documentation is incomplete at this time. Work is still being made. {{< /tip >}}
+{{< tip >}} Documentation is still a work in progress at this time. Expect things to be missing or incomplete. {{< /tip >}}
 
-Welcome to the Blade OS documentation! Please select an option.
+Welcome to the Blade OS documentation! Please select your version from the left for more information.

@@ -5,7 +5,7 @@ weight = 1
 
 Welcome to the first release of Blade OS! This version is based on **Debian 12 bookworm**, Which gets updates until 2028.
 
-This release includes the **GNOME 43** desktop with a few modifications that makes sure that you get things done quickly. It uses flatpak as it's main source of getting apps. However, you can also use AppImages, debs, & snaps if needed to.
+This release includes the **GNOME 43** desktop with a few modifications that makes sure that you get things done quickly. It uses Flatpak as it's main source of getting apps. However, you can also use AppImages, debs, & snaps if you need to.
 
 # System Requirements
 * An amd64 processor
