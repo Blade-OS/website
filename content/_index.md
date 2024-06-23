@@ -6,8 +6,6 @@ columnTitles = ["Section", "Status", "Author"]
 fileLink = "content/projects.csv"
 +++
 
-{{< tip "warning" >}}The main Blade OS repository is currently down. We're currently using a backup server to host them. Expect slower download speeds at this time.{{< /tip >}}
-
 {{< tip >}}After 6 months of active development, Blade OS is now officially out! We hope you enjoy it!{{< /tip >}}
 
 {{< block "grid-2" >}}
