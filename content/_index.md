@@ -6,8 +6,6 @@ columnTitles = ["Section", "Status", "Author"]
 fileLink = "content/projects.csv"
 +++
 
-{{< tip >}}After 6 months of active development, Blade OS is now officially out! We hope you enjoy it!{{< /tip >}}
-
 {{< block "grid-2" >}}
 {{< column >}}
 
