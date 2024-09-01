@@ -1,5 +1,5 @@
 +++
-title = "Download Blade OS"
+title = "Download"
 description = "Download Blade OS."
 [data]
 baseChartOn = 3
@@ -11,15 +11,16 @@ weight = 1
 
 {{< tip >}} Ran into any issues? Create an [issue](https://github.com/Blade-OS/os/issues/new/choose "Open an issue") on our GitHub. {{< /tip >}}
 
-## Blade OS 24.1 - Blissful
-Download the very first release of Blade OS!
+## Blade OS 24.2 - Blissful
+Download the latest version of Blade OS.
 
 ### Features
 * Pre-Configured GNOME Desktop for ease of use
 * A bunch of useful utilities & apps pre-installed like Firefox & LibreOffice
-* Based on the latest & rock-solid stability of Debian 12.6, bookworm
+* Based on the latest & rock-solid stability of Debian bookworm
 
 {{< button "https://sourceforge.net/projects/blade-os/files/v24%20-%20blissful/" "Download from SourceForge" >}}
 
+---
 ### Need help?
 {{< button "../docs/v24/installing/" "Install Instructions" >}} {{< button "https://github.com/Blade-OS/os/issues/new/choose" "Report an issue" >}}

@@ -11,17 +11,15 @@ fileLink = "content/projects.csv"
 
 # Welcome to **Blade OS**!
 
-A brand new distro based on **Debian** that has everything pre-configured.
+A distro based on **Debian** that has everything pre-configured & ready to go.
 
+---
 ### Features
-* Pre-Configured GNOME Desktop for ease of use
+* A pre-configured desktop for ease of use
 * A bunch of useful utilities & apps pre-installed
 * Based on the rock-solid stability of Debian
-
-### Install apps easily!
-* Software allows you to install & update your apps with ease
-* Install your favorites with the secure and isolated Flatpak
-* Doesn't support Flatpak? Since we're based on Debian, you can install the packaged version of it!
+* Software allows you to discover, install, & update your apps with ease
+* Supports Debian packages & Flatpaks
 
 {{< /column >}}
 
@@ -30,4 +28,5 @@ A brand new distro based on **Debian** that has everything pre-configured.
 {{< /column >}}
 {{< /block >}}
 
-##### {{< button "download/" "Download Now!" >}}
+#### Download now to get a clean & smooth experience!
+{{< button "download/" "Download" >}}
