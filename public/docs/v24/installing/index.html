@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang=en data-mode=auto itemscope itemtype=http://schema.org/WebPage>
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="Hugo 0.132.2">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="Hugo 0.140.2">
 <link rel="apple-touch-icon" sizes="180x180" href='http://localhost:1313/favicons/apple-touch-icon.png'>
 <link rel="icon" type="image/png" sizes="32x32" href='http://localhost:1313/favicons/favicon-32x32.png'>
 <link rel="icon" type="image/png" sizes="16x16" href='http://localhost:1313/favicons/favicon-16x16.png'>
@@ -24,7 +24,7 @@
   <meta name="twitter:title" content="Installation">
   <meta name="twitter:description" content="An in-depth installation guide for Blade OS.">
 
-<link rel="stylesheet" href="http://localhost:1313/css/styles.d56dbe1ba0239a1a9801b2dab4dd292ca63684fc08fb18d5969aa05524f22b20bcf081a7324502c84e4dd1b7c0bbc1ed8a0b11a507d2fa2e7f8141d7f132cd40.css" integrity="sha512-1W2&#43;G6AjmhqYAbLatN0pLKY2hPwI&#43;xjVlpqgVSTyKyC88IGnMkUCyE5N0bfAu8HtigsRpQfS&#43;i5/gUHX8TLNQA==">
+<link rel="stylesheet" href="http://localhost:1313/css/styles.8d8085f7db497b3f3b3071490f89d4ce22990b40da7e429db3a4bfbf559eb93c93a40c627e51f10b618139145d468ecfdccb9425643cc38726adff2ceaf5ad10.css" integrity="sha512-jYCF99tJez87MHFJD4nUziKZC0DafkKds6S/v1WeuTyTpAxiflHxC2GBORRdRo7P3MuUJWQ8w4cmrf8s6vWtEA==">
   <meta name="description" content="An in-depth installation guide for Blade OS.">
 
 </head>
@@ -117,11 +117,25 @@
   Installing Blade OS can erase your hard drive. Please make sure you have everything backed up before proceeding.
 </div>
 
-<h2 id="download-the-iso">Download the ISO</h2>
+<h2 id="download-the-iso" class=link_owner>
+  Download the ISO
+  <a href="#download-the-iso" class="link icon">
+    <svg>
+      <use xlink:href="#anchor-link"></use>
+    </svg>
+  </a>
+</h2>
 <p>First, You&rsquo;ll need to download the latest Blade OS ISO, Which can be found here.</p>
 <a href="../../../download" class="button">Download</a>
 
-<h2 id="preparing-the-installation-media">Preparing the installation media</h2>
+<h2 id="preparing-the-installation-media" class=link_owner>
+  Preparing the installation media
+  <a href="#preparing-the-installation-media" class="link icon">
+    <svg>
+      <use xlink:href="#anchor-link"></use>
+    </svg>
+  </a>
+</h2>
 
 <div class="tip">
   If you&rsquo;re using a virtual machine, You may skip this step.
@@ -133,42 +147,112 @@
 </div>
 
 <p>In order to install Blade OS, You&rsquo;ll need an installation media. There&rsquo;s multiple programs that can get the job done.</p>
-<h1 id="rufus-windows">Rufus (Windows)</h1>
+<h1 id="rufus-windows" class=link_owner>
+  Rufus (Windows)
+  <a href="#rufus-windows" class="link icon">
+    <svg>
+      <use xlink:href="#anchor-link"></use>
+    </svg>
+  </a>
+</h1>
 <p>Rufus is a quick way to burn ISO&rsquo;s to USB flash drives.</p>
 <a href="https://rufus.ie/" class="button">Download</a>
 
-<h1 id="balena-etcher-windows-mac-linux">Balena Etcher (Windows, Mac, Linux)</h1>
+<h1 id="balena-etcher-windows-mac-linux" class=link_owner>
+  Balena Etcher (Windows, Mac, Linux)
+  <a href="#balena-etcher-windows-mac-linux" class="link icon">
+    <svg>
+      <use xlink:href="#anchor-link"></use>
+    </svg>
+  </a>
+</h1>
 <p>Etcher is an easy to use &amp; quick way to burn ISO&rsquo;s into USB flash drives. It&rsquo;s very simple and gets the job done quickly. In addition, it supports all 3 major platforms.</p>
 <p><a href="https://etcher.balena.io/" class="button">Download for Windows/Mac</a>
 
 <em>Linux version available through your distro&rsquo;s package manager.</em></p>
-<h1 id="ventoy-windows-mac-linux">Ventoy (Windows, Mac, Linux)</h1>
+<h1 id="ventoy-windows-mac-linux" class=link_owner>
+  Ventoy (Windows, Mac, Linux)
+  <a href="#ventoy-windows-mac-linux" class="link icon">
+    <svg>
+      <use xlink:href="#anchor-link"></use>
+    </svg>
+  </a>
+</h1>
 <p>Ventoy is a tool that allows you to multi-boot ISO&rsquo;s in one drive. It&rsquo;s very easy to use, Just drag and drop the ISO into the drive.</p>
 <a href="https://www.ventoy.net/" class="button">Download</a>
 
-<h2 id="entering-the-bios">Entering the BIOS</h2>
+<h2 id="entering-the-bios" class=link_owner>
+  Entering the BIOS
+  <a href="#entering-the-bios" class="link icon">
+    <svg>
+      <use xlink:href="#anchor-link"></use>
+    </svg>
+  </a>
+</h2>
 <p>Depending on your system, You&rsquo;ll need to press a certain key while booting up your system to access the BIOS. Most devices can boot into it by using F9, F12, or DEL.</p>
-<h2 id="disable-secure-boot-uefi-only">Disable secure boot (UEFI only)</h2>
+<h2 id="disable-secure-boot-uefi-only" class=link_owner>
+  Disable secure boot (UEFI only)
+  <a href="#disable-secure-boot-uefi-only" class="link icon">
+    <svg>
+      <use xlink:href="#anchor-link"></use>
+    </svg>
+  </a>
+</h2>
 <p>Secure boot can prevent you from booting in &amp; installing Blade OS. In order to disable it, You&rsquo;ll need to go to the Security section of your BIOS, and disable it.
 
 <div class="tip tip_warning">
   If you don&rsquo;t see the secure boot option, It either means that your device dosen&rsquo;t support it or it cannot be turned off.
 </div>
 </p>
-<h2 id="changing-your-boot-order">Changing your boot order</h2>
+<h2 id="changing-your-boot-order" class=link_owner>
+  Changing your boot order
+  <a href="#changing-your-boot-order" class="link icon">
+    <svg>
+      <use xlink:href="#anchor-link"></use>
+    </svg>
+  </a>
+</h2>
 <p>To change your boot order, Go to the boot section of your BIOS. Then sort your Blade OS installation media to the top. After doing that, Make sure you save &amp; exit.</p>
-<h2 id="booting-into-blade-os">Booting into Blade OS</h2>
+<h2 id="booting-into-blade-os" class=link_owner>
+  Booting into Blade OS
+  <a href="#booting-into-blade-os" class="link icon">
+    <svg>
+      <use xlink:href="#anchor-link"></use>
+    </svg>
+  </a>
+</h2>
 <p>Upon saving changes, You&rsquo;ll be given a few options on the bootloader.</p>
-<p><img alt="Blade OS bootloader (UEFI)" src="../../../images/docs/v24/bootloader.png"></p>
+<p><img src="../../../images/docs/v24/bootloader.png" alt="Blade OS bootloader (UEFI)"></p>
 <p>Select &ldquo;Live system&rdquo; to boot. If things aren&rsquo;t working, Try fail-safe mode. You should see a loading screen with the Blade OS logo.</p>
-<h2 id="try-out-blade-os-before-installing">Try out Blade OS before installing</h2>
+<h2 id="try-out-blade-os-before-installing" class=link_owner>
+  Try out Blade OS before installing
+  <a href="#try-out-blade-os-before-installing" class="link icon">
+    <svg>
+      <use xlink:href="#anchor-link"></use>
+    </svg>
+  </a>
+</h2>
 <p>We recommend you trying out Blade OS before installing it. Make sure all apps work &amp; your system runs smoothly with it.
-<img alt="Blade OS with GNOME desktop" src="../../../images/docs/v24/gnome-desktop.png"></p>
-<h2 id="run-the-installer">Run the installer</h2>
+<img src="../../../images/docs/v24/gnome-desktop.png" alt="Blade OS with GNOME desktop"></p>
+<h2 id="run-the-installer" class=link_owner>
+  Run the installer
+  <a href="#run-the-installer" class="link icon">
+    <svg>
+      <use xlink:href="#anchor-link"></use>
+    </svg>
+  </a>
+</h2>
 <p>If you&rsquo;re ready to install Blade OS to your system, close all apps &amp; open the &ldquo;Install Blade&rdquo; app. Set everything up to your liking until you reach the partitioning section.</p>
-<h2 id="partition-the-drive">Partition the drive</h2>
+<h2 id="partition-the-drive" class=link_owner>
+  Partition the drive
+  <a href="#partition-the-drive" class="link icon">
+    <svg>
+      <use xlink:href="#anchor-link"></use>
+    </svg>
+  </a>
+</h2>
 <p>There&rsquo;s multiple ways to partition your drive.
-<img alt="Installer paritions page" src="../../../images/docs/v24/calamares-drives.png"></p>
+<img src="../../../images/docs/v24/calamares-drives.png" alt="Installer paritions page"></p>
 
 <div class="tip tip_warning">
   Make sure you have selected the right drive! Installing to the wrong drive can result in data loss.
@@ -182,12 +266,26 @@ This will erase a partition off your drive and installs Blade OS on it. Great fo
 This will shrink your current operating system to install Blade OS. This allows you to use both without erasing data.</p>
 <p><strong>Manual partitioning (Advanced)</strong>:
 This will allow you to partition your drive manually. This option should usually be avoided unless you know what you&rsquo;re doing.</p>
-<h2 id="confirm-changes-before-installation">Confirm changes before installation</h2>
+<h2 id="confirm-changes-before-installation" class=link_owner>
+  Confirm changes before installation
+  <a href="#confirm-changes-before-installation" class="link icon">
+    <svg>
+      <use xlink:href="#anchor-link"></use>
+    </svg>
+  </a>
+</h2>
 <p>Make sure everything is right before installing. Once you have confirmed, Press the install button.
-<img alt="Installer summary page" src="../../../images/docs/v24/calamares-summary.png"></p>
-<h2 id="finish-installation">Finish installation</h2>
+<img src="../../../images/docs/v24/calamares-summary.png" alt="Installer summary page"></p>
+<h2 id="finish-installation" class=link_owner>
+  Finish installation
+  <a href="#finish-installation" class="link icon">
+    <svg>
+      <use xlink:href="#anchor-link"></use>
+    </svg>
+  </a>
+</h2>
 <p>Blade OS is now installing. This might take awhile depending on your system&rsquo;s speeds. Please don&rsquo;t interrupt this process.
-<img alt="Installing page" src="../../../images/docs/v24/calamares-install.png"></p>
+<img src="../../../images/docs/v24/calamares-install.png" alt="Installing page"></p>
 <p>Once the installation has completed, Remove the drive &amp; reboot your system. Blade OS has been installed!</p>
 
     <div class="pager pager_lean">
@@ -214,7 +312,7 @@ const no_matches_found = 'No matches found';
 <footer class="pt-2 pb-2">
   <div class="wrap">
     <p>
-      &copy; <span class="year">2024</span>
+      &copy; <span class="year">2025</span>
         
         <a href="https://github.com/orgs/Blade-OS/people" target="_blank" rel="noopener">The Blade OS Authors</a>
         
@@ -260,6 +358,12 @@ const no_matches_found = 'No matches found';
     <circle cx="3.429" cy="20.571" r="3.429"></circle>
     <path d="M11.429 24h4.57C15.999 15.179 8.821 8.001 0 8v4.572c6.302.001 11.429 5.126 11.429 11.428z"></path>
     <path d="M24 24C24 10.766 13.234 0 0 0v4.571c10.714 0 19.43 8.714 19.43 19.429z"></path>
+  </symbol>
+  <symbol enable-background="new 0 0 64 64" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="anchor-link">
+    <g fill="var(--theme)">
+      <path d="m19 40c1.104 0 2-.896 2-2s-.896-2-2-2c-3.86 0-7-3.14-7-7 0-1.873.728-3.628 2.059-4.95 1.313-1.322 3.068-2.05 4.941-2.05h10c3.86 0 7 3.14 7 7 0 .258-.015.509-.048.78-.174 1.574-.885 3.052-2.017 4.176-.532.54-1.137.974-1.797 1.289-.997.476-1.419 1.669-.944 2.666.476.996 1.669 1.419 2.667.943 1.08-.516 2.063-1.219 2.908-2.075 1.763-1.75 2.885-4.08 3.156-6.539.051-.413.075-.819.075-1.24 0-6.065-4.935-11-11-11h-10c-2.947 0-5.709 1.147-7.77 3.221-2.083 2.07-3.23 4.832-3.23 7.779 0 6.065 4.935 11 11 11z"></path>
+      <path d="m45 28c-1.104 0-2 .896-2 2s.896 2 2 2c3.86 0 7 3.141 7 7 0 1.873-.728 3.628-2.059 4.95-1.313 1.322-3.068 2.05-4.941 2.05h-10c-3.86 0-7-3.141-7-7 0-.258.015-.509.048-.78.174-1.574.885-3.052 2.017-4.176.532-.54 1.136-.974 1.796-1.289.997-.476 1.419-1.67.944-2.667s-1.669-1.418-2.667-.944c-1.081.516-2.064 1.22-2.908 2.076-1.763 1.75-2.885 4.08-3.156 6.538-.05.415-.074.821-.074 1.242 0 6.065 4.935 11 11 11h10c2.946 0 5.709-1.147 7.77-3.221 2.083-2.07 3.23-4.833 3.23-7.779 0-6.065-4.935-11-11-11z"></path>
+    </g>
   </symbol>
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="linkedin">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h362c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zM181 406h-60V196h60zm0-240h-60v-60h60zm210 240h-60V286c0-16.54-13.46-30-30-30s-30 13.46-30 30v120h-60V196h60v11.309C286.719 202.422 296.93 196 316 196c40.691.043 75 36.547 75 79.688zm0 0"></path>
@@ -319,7 +423,7 @@ const no_matches_found = 'No matches found';
         <span class="line line-flex">
           <span class="ln">${s+1}</span>
           <span class="cl">${t.trim()}</span>
-        </span>`.trim();n.push(o),e.closest("pre").className="chroma",pushClass(e,"language-unknown"),e.dataset.lang=not_set}}),e.innerHTML=n.join("").trim(" "))}function wrapOrphanedPreElements(){const e=elems("pre");Array.from(e).forEach(function(e){const t=e.parentNode,n=!containsClass(t,highlight);if(n){const t=createEl();t.className=highlight;const n=createEl();n.className=highlight_wrap,wrapEl(e,t),wrapEl(t,n)}})}wrapOrphanedPreElements();function codeBlocks(){const e=elems("code"),t=Array.from(e).filter(function(e){return addLines(e),e.closest("pre")&&!Array.from(e.classList).includes("noClass")}).map(function(e){return e});return t}function codeBlockFits(e){const t=e.offsetWidth,n=e.closest(`.${highlight}`).offsetWidth;return t<=n}function maxHeightIsSet(e){let t=e.style.maxHeight;return t.includes("px")}function restrainCodeBlockHeight(e){const n=e[max_lines-1];let t=full_height;if(n){const s=n.offsetTop;if(s!==0){t=`${s}px`;const n=e[0].parentNode,o=n.closest(`.${highlight}`),i=containsClass(o,panel_expanded);i||(n.dataset.height=t,n.style.maxHeight=t)}}}const blocks=codeBlocks();function collapseCodeBlock(e){const t=elems(line_class,e),n=t.length;if(n>max_lines){const n=createEl();pushClass(n,panel_expand),pushClass(n,panel_from),n.title="Toggle snippet",n.textContent="...";const s=e.closest(".highlight");window.setTimeout(function(){const e=s.nextElementSibling.lastElementChild;deleteClass(e,panel_hide)},150),restrainCodeBlockHeight(t);const o=e.parentNode.parentNode;o.appendChild(n)}}blocks.forEach(function(e){collapseCodeBlock(e)});function actionPanel(){const e=createEl();return e.className=panel_box,snippet_actions.forEach(function(t){const n=createEl("a");n.href="#",n.title=t.title,n.className=`icon panel_icon panel_${t.id}`,!t.show&&pushClass(n,panel_hide),loadSvg(t.icon,n),e.appendChild(n)}),e}function toggleLineNumbers(e){e&&(e.forEach(e=>modifyClass(e,"pre_nolines")),restrainCodeBlockHeight(e))}function toggleLineWrap(e){modifyClass(e,"pre_wrap");const t=elems(".ln",e);restrainCodeBlockHeight(t)}function copyCode(e){const t=e.parentNode.parentNode.querySelector(`.${copy_id}`),s=t.title;loadSvg("check",t),t.title=copied_text,e=e.cloneNode(!0);const n=elems(".ln",e);!!n.length&&n.forEach(e=>e.remove());let o=elems("span",e);o.forEach(e=>{const t=e.textContent.trim(" ");t.indexOf("$")===0&&(e.textContent=e.textContent.replace("$ ",""))});const i=e.textContent.trim(" ");copyToClipboard(i),setTimeout(function(){t.title=s,loadSvg("copy",t)},2250)}(function(){const n=highlight_wrap;blocks.forEach(function(e){show_lines===!1&&toggleLineNumbers(elems(".ln",e));const o=e.parentNode.parentNode,t=createEl();t.className=n,wrapEl(o,t);const s=actionPanel(),i=elem(`.${wrap_id}`,s);!codeBlockFits(e)&&deleteClass(i,panel_hide),t.appendChild(s)});function t(e,t){return e.matches(`.${t}`)||e.closest(`.${t}`)}function s(e,t){const n=e.matches(`.${t}`)?e:e.closest(`.${t}`);deleteClass(n,active),setTimeout(function(){modifyClass(n,active)},50)}doc.addEventListener("click",function(e){const o=e.target,i=t(o,copy_id),a=t(o,wrap_id),r=t(o,lines_id),c=t(o,panel_expand),l=i||a||r||c;if(l){e.preventDefault(),s(o,"icon");const t=o.closest(`.${n}`).firstElementChild.firstElementChild;let l=elems(".ln",t);if(!!a&&toggleLineWrap(t),!!r&&toggleLineNumbers(l),c){let e=t.firstElementChild;const n=e.closest(".highlight");maxHeightIsSet(e)?(e.style.maxHeight=full_height,pushClass(n,panel_expanded)):(e.style.maxHeight=e.dataset.height,deleteClass(n,panel_expanded))}!!i&&copyCode(t)}}),function(){blocks.forEach(e=>{let t=e.dataset.lang;const n=shell_based.includes(t);if(n){const t=elems(line_class,e);Array.from(t).forEach(e=>{e=e.lastElementChild;let t=e.textContent.trim(" ");!!(t.indexOf("$")!==0&&t.trim(" ").length)&&pushClass(e,"shell")})}if(t=t==="sh"?"shell":t,t!=="fallback"){const n=createEl();n.textContent=t,pushClass(n,"lang"),e.closest(`.${highlight_wrap}`).appendChild(n)}})}()})();function prefersColor(e){return`(prefers-color-scheme: ${e})`}function systemMode(){return window.matchMedia&&window.matchMedia(prefersColor(dark)).matches?dark:light}function currentMode(){let e=light+dark;e=[...e];let t=getComputedStyle(doc).getPropertyValue(key).replace(/"/g,"").trim();return[...t].filter(t=>e.includes(t)).join("")}function changeMode(e){e?(bank.setItem(storageKey,light),elemAttribute(doc,mode_data,light)):(bank.setItem(storageKey,dark),elemAttribute(doc,mode_data,dark))}function pickModePicture(e){elems("picture").forEach(function(t){let o=t.firstElementChild;const n=t.dataset,s=[n.lit,n.dark];o.src=e=="dark"?s[1]:s[0]})}function setMermaidTheme(e){bank.setItem(mermaidThemeKey,e);let t=elem(".color_choice");t.value=e}function setUserColorMode(e=!1){const n=currentMode()==dark,s=bank.getItem(storageKey),o=systemMode();s?e?changeMode(n):elemAttribute(doc,mode_data,s):changeMode(e===!0?n:o!==dark);const t=doc.dataset.mode;doc.dataset.systemmode=o,!!t&&pickModePicture(t),setMermaidTheme(t)}setUserColorMode(),function(){return elem(".nav_header").offsetHeight+25}();function toggleMenu(e){const t=e.target,o=t.matches(`.${toggle_id}`),n=t.closest(`.${toggle_id}`),i=elems(`.${show_id}`)?Array.from(elems(`.${show_id}`)):[],a=t.closest(`.${menu}`);function s(e,t=!1){i.forEach(function(n){!t&&deleteClass(n,show_id),n!==e.closest(`.${menu}`)&&deleteClass(n,show_id)})}if(o||n){const s=n?n.parentNode.parentNode:t.parentNode.parentNode;e.preventDefault(),modifyClass(s,show_id)}else a?s(t,!0):s(t)}(function(){const t=elems("code");t&&t.forEach(function(e){hasClasses(e)||!e.children.length&&pushClass(e,"noClass")})})();function featureHeading(){const t="section_link",n="section_title",e=elem(".aside");if(e){let s=elem(`.${t}.${active}`);s=s||elem(`.${n}.${active}`),e.scroll({top:s.offsetTop,left:0})}}function activeHeading(e,t){let n=Object.create(null);n.active=t.filter(function(e){return containsClass(e,active)})[0],n.new=t.filter(function(t){return parseInt(t.dataset.position)===e})[0],n.active!=n.new&&(!!n.active&&deleteClass(n.active,active),pushClass(n.new,active))}setTimeout(()=>{featureHeading()},50);function updateDate(){const t=new Date,e=t.getFullYear().toString,n=elem(".year");!!n&&(e.textContent=e)}function customizeSidebar(){const e="toc_active",n=elem("aside"),t=elems("nav",n);if(t){t.forEach(function(t){if(t.id="",pushClass(t,"toc"),t.children.length>=1){const n=Array.from(t.children[0].children),s=t.previousElementSibling;!!s.matches(`.${active}`)&&pushClass(t,e),n.forEach(function(e){pushClass(e,"toc_item"),pushClass(e.firstElementChild,"toc_link")})}});const n=elem(`.${e}`);if(n){const e=Array.from(elems("a",n)),s=e.map(function(e){return e.hash}),t=s.map(function(e){const t=document.getElementById(decodeURIComponent(e.replace("#",""))),n=t.offsetTop;return n});e.forEach(function(e,n){e.dataset.position=t[n]}),window.addEventListener("scroll",function(){let s=window.scrollY,o=closestInt(s,t);activeHeading(o,e)})}}elems("p").forEach(function(e){const t=elems(".button",e);t.length>1&&pushClass(e,"button_grid")})}function markExternalLinks(){let e=elems("a");e&&Array.from(e).forEach(function(e){let n,o,i,s,a,r,t,c;t=new URL(e.href),c=t.host!==location.host||t.protocol!==location.protocol||t.port!==location.port,c&&(n="target",o="rel",i="_blank",s="noopener",a=elemAttribute(e,n),r=elemAttribute(e,s),!a&&elemAttribute(e,n,i),!r&&elemAttribute(e,o,s))})}function sanitizeURL(e){const t=e.indexOf(hash);if(t>-1){const n=e.substr(t,e.length-1);e=e.replace(n,"")}return e}function createDeepLinks(){let e=[];[...Array(6).keys()].forEach(function(t){t&&Array.prototype.push.apply(e,document.getElementsByTagName(`h${t+1}`))}),e.forEach(e=>{let t=createEl("a"),n=createEl("img");n.src="http://localhost:1313/icons/link.svg",t.className="link icon",t.appendChild(n);let s=e.getAttribute("id");s&&(t.href=`${sanitizeURL(document.URL)}#${s}`,e.appendChild(t),pushClass(e,"link_owner"))})}function copyFeedback(e){const t=document.createElement("div"),n="link_yanked";if(t.classList.add(n),t.innerText=copied_text,!elem(`.${n}`,e)){const n=e.getElementsByTagName("img")[0],s=n.src;n.src="http://localhost:1313/icons/check.svg",e.appendChild(t),setTimeout(function(){e.removeChild(t),n.src=s},2250)}}function copyHeadingLink(){let t,n,s,o,e;t="link",n=elems(`.${t}`),n&&document.addEventListener("click",function(n){e=n.target,o=e.parentNode,(e&&containsClass(e,t)||containsClass(o,t))&&(n.preventDefault(),s=e.href!=void 0?e.href:e.parentNode.href,copyToClipboard(s),copyFeedback(e.href!=void 0?e:e.parentNode))})}function makeTablesResponsive(){const e=elems("table");e&&e.forEach(function(e){const t=createEl();pushClass(t,"scrollable"),wrapEl(e,t)})}function backToTop(){const e=elem("#toTop");window.addEventListener("scroll",()=>{const t=window.scrollY;t>=200?(e.style.display="flex",pushClass(e,active)):deleteClass(e,active)})}function lazyLoadMedia(e=[]){e.forEach(e=>{let t=elems(e);t&&Array.from(t).forEach(function(e){e.loading="lazy"})})}function loadActions(){updateDate(),customizeSidebar(),markExternalLinks(),createDeepLinks(),copyHeadingLink(),makeTablesResponsive(),backToTop(),lazyLoadMedia(["iframe","img"]),doc.addEventListener("click",e=>{let t=e.target,n="color_choice",s=containsClass(t,n);!!s&&setUserColorMode(!0),toggleMenu(e)})}window.addEventListener("load",loadActions())
+        </span>`.trim();n.push(o),e.closest("pre").className="chroma",pushClass(e,"language-unknown"),e.dataset.lang=not_set}}),e.innerHTML=n.join("").trim(" "))}function wrapOrphanedPreElements(){const e=elems("pre");Array.from(e).forEach(function(e){const t=e.parentNode,n=!containsClass(t,highlight);if(n){const t=createEl();t.className=highlight;const n=createEl();n.className=highlight_wrap,wrapEl(e,t),wrapEl(t,n)}})}wrapOrphanedPreElements();function codeBlocks(){const e=elems("code"),t=Array.from(e).filter(function(e){return addLines(e),e.closest("pre")&&!Array.from(e.classList).includes("noClass")}).map(function(e){return e});return t}function codeBlockFits(e){const t=e.offsetWidth,n=e.closest(`.${highlight}`).offsetWidth;return t<=n}function maxHeightIsSet(e){let t=e.style.maxHeight;return t.includes("px")}function restrainCodeBlockHeight(e){const n=e[max_lines-1];let t=full_height;if(n){const s=n.offsetTop;if(s!==0){t=`${s}px`;const n=e[0].parentNode,o=n.closest(`.${highlight}`),i=containsClass(o,panel_expanded);i||(n.dataset.height=t,n.style.maxHeight=t)}}}const blocks=codeBlocks();function collapseCodeBlock(e){const t=elems(line_class,e),n=t.length;if(n>max_lines){const n=createEl();pushClass(n,panel_expand),pushClass(n,panel_from),n.title="Toggle snippet",n.textContent="...";const s=e.closest(".highlight");window.setTimeout(function(){const e=s.nextElementSibling.lastElementChild;deleteClass(e,panel_hide)},150),restrainCodeBlockHeight(t);const o=e.parentNode.parentNode;o.appendChild(n)}}blocks.forEach(function(e){collapseCodeBlock(e)});function actionPanel(){const e=createEl();return e.className=panel_box,snippet_actions.forEach(function(t){const n=createEl("a");n.href="#",n.title=t.title,n.className=`icon panel_icon panel_${t.id}`,!t.show&&pushClass(n,panel_hide),loadSvg(t.icon,n),e.appendChild(n)}),e}function toggleLineNumbers(e){e&&(e.forEach(e=>modifyClass(e,"pre_nolines")),restrainCodeBlockHeight(e))}function toggleLineWrap(e){modifyClass(e,"pre_wrap");const t=elems(".ln",e);restrainCodeBlockHeight(t)}function copyCode(e){const t=e.parentNode.parentNode.querySelector(`.${copy_id}`),s=t.title;loadSvg("check",t),t.title=copied_text,e=e.cloneNode(!0);const n=elems(".ln",e);!!n.length&&n.forEach(e=>e.remove());let o=elems("span",e);o.forEach(e=>{const t=e.textContent.trim(" ");t.indexOf("$")===0&&(e.textContent=e.textContent.replace("$ ",""))});const i=e.textContent.trim(" ");copyToClipboard(i),setTimeout(function(){t.title=s,loadSvg("copy",t)},2250)}(function(){const n=highlight_wrap;blocks.forEach(function(e){show_lines===!1&&toggleLineNumbers(elems(".ln",e));const o=e.parentNode.parentNode,t=createEl();t.className=n,wrapEl(o,t);const s=actionPanel(),i=elem(`.${wrap_id}`,s);!codeBlockFits(e)&&deleteClass(i,panel_hide),t.appendChild(s)});function t(e,t){return e.matches(`.${t}`)||e.closest(`.${t}`)}function s(e,t){const n=e.matches(`.${t}`)?e:e.closest(`.${t}`);deleteClass(n,active),setTimeout(function(){modifyClass(n,active)},50)}doc.addEventListener("click",function(e){const o=e.target,i=t(o,copy_id),a=t(o,wrap_id),r=t(o,lines_id),c=t(o,panel_expand),l=i||a||r||c;if(l){e.preventDefault(),s(o,"icon");const t=o.closest(`.${n}`).firstElementChild.firstElementChild;let l=elems(".ln",t);if(!!a&&toggleLineWrap(t),!!r&&toggleLineNumbers(l),c){let e=t.firstElementChild;const n=e.closest(".highlight");maxHeightIsSet(e)?(e.style.maxHeight=full_height,pushClass(n,panel_expanded)):(e.style.maxHeight=e.dataset.height,deleteClass(n,panel_expanded))}!!i&&copyCode(t)}}),function(){blocks.forEach(e=>{let t=e.dataset.lang;const n=shell_based.includes(t);if(n){const t=elems(line_class,e);Array.from(t).forEach(e=>{e=e.lastElementChild;let t=e.textContent.trim(" ");!!(t.indexOf("$")!==0&&t.trim(" ").length)&&pushClass(e,"shell")})}if(t=t==="sh"?"shell":t,t!=="fallback"){const n=createEl();n.textContent=t,pushClass(n,"lang"),e.closest(`.${highlight_wrap}`).appendChild(n)}})}()})();function prefersColor(e){return`(prefers-color-scheme: ${e})`}function systemMode(){return window.matchMedia&&window.matchMedia(prefersColor(dark)).matches?dark:light}function currentMode(){let e=light+dark;e=[...e];let t=getComputedStyle(doc).getPropertyValue(key).replace(/"/g,"").trim();return[...t].filter(t=>e.includes(t)).join("")}function changeMode(e){e?(bank.setItem(storageKey,light),elemAttribute(doc,mode_data,light)):(bank.setItem(storageKey,dark),elemAttribute(doc,mode_data,dark))}function pickModePicture(e){elems("picture").forEach(function(t){let o=t.firstElementChild;const n=t.dataset,s=[n.lit,n.dark];o.src=e=="dark"?s[1]:s[0]})}function setMermaidTheme(e){bank.setItem(mermaidThemeKey,e);let t=elem(".color_choice");t.value=e}function setUserColorMode(e=!1){const n=currentMode()==dark,s=bank.getItem(storageKey),o=systemMode();s?e?changeMode(n):elemAttribute(doc,mode_data,s):changeMode(e===!0?n:o!==dark);const t=doc.dataset.mode;doc.dataset.systemmode=o,!!t&&pickModePicture(t),setMermaidTheme(t)}setUserColorMode(),function(){return elem(".nav_header").offsetHeight+25}();function toggleMenu(e){const t=e.target,o=t.matches(`.${toggle_id}`),n=t.closest(`.${toggle_id}`),i=elems(`.${show_id}`)?Array.from(elems(`.${show_id}`)):[],a=t.closest(`.${menu}`);function s(e,t=!1){i.forEach(function(n){!t&&deleteClass(n,show_id),n!==e.closest(`.${menu}`)&&deleteClass(n,show_id)})}if(o||n){const s=n?n.parentNode.parentNode:t.parentNode.parentNode;e.preventDefault(),modifyClass(s,show_id)}else a?s(t,!0):s(t)}(function(){const t=elems("code");t&&t.forEach(function(e){hasClasses(e)||!e.children.length&&pushClass(e,"noClass")})})();function featureHeading(){const t="section_link",n="section_title",e=elem(".aside");if(e){let s=elem(`.${t}.${active}`);s=s||elem(`.${n}.${active}`),e.scroll({top:s.offsetTop,left:0})}}function activeHeading(e,t){let n=Object.create(null);n.active=t.filter(function(e){return containsClass(e,active)})[0],n.new=t[e],n.active!=n.new&&(!!n.active&&deleteClass(n.active,active),pushClass(n.new,active))}setTimeout(()=>{featureHeading()},50);function updateDate(){const t=new Date,e=t.getFullYear().toString,n=elem(".year");!!n&&(e.textContent=e)}function customizeSidebar(){const e="toc_active",n=elem("aside"),t=elems("nav",n);if(t){t.forEach(function(t){if(t.id="",pushClass(t,"toc"),t.children.length>=1){const n=Array.from(t.children[0].children),s=t.previousElementSibling;!!s.matches(`.${active}`)&&pushClass(t,e),n.forEach(function(e){pushClass(e,"toc_item"),pushClass(e.firstElementChild,"toc_link")})}});const n=elem(`.${e}`);if(n){const e=Array.from(elems("a",n)),t=e.map(function(e){return document.getElementById(decodeURIComponent(e.hash.replace("#","")))});window.addEventListener("scroll",function(){let o=window.scrollY+window.innerHeight/2,s=0;for(const[n,e]of t.entries())e.offsetTop<o&&e.offsetTop>t[s].offsetTop&&(s=n);activeHeading(s,e)})}}elems("p").forEach(function(e){const t=elems(".button",e);t.length>1&&pushClass(e,"button_grid")})}function markExternalLinks(){let e=elems("a");e&&Array.from(e).forEach(function(e){let n,o,i,s,a,r,t,c;t=new URL(e.href),c=t.host!==location.host||t.protocol!==location.protocol||t.port!==location.port,c&&(n="target",o="rel",i="_blank",s="noopener",a=elemAttribute(e,n),r=elemAttribute(e,s),!a&&elemAttribute(e,n,i),!r&&elemAttribute(e,o,s))})}function sanitizeURL(e){const t=e.indexOf(hash);if(t>-1){const n=e.substr(t,e.length-1);e=e.replace(n,"")}return e}function copyFeedback(e){const t=document.createElement("div"),n="link_yanked";if(t.classList.add(n),t.innerText=copied_text,!elem(`.${n}`,e)){const n=e.getElementsByTagName("svg")[0],s=n.src;n.src="http://localhost:1313/icons/check.svg",e.appendChild(t),setTimeout(function(){e.removeChild(t),n.src=s},2250)}}function copyHeadingLink(){let t,n,s,o,e;t="link",n=elems(`.${t}`),n&&document.addEventListener("click",function(n){e=n.target,o=e.parentNode,(e&&containsClass(e,t)||containsClass(o,t))&&(n.preventDefault(),s=e.href!=void 0?e.href:e.parentNode.href,copyToClipboard(s),copyFeedback(e.href!=void 0?e:e.parentNode))})}function makeTablesResponsive(){const e=elems("table");e&&e.forEach(function(e){const t=createEl();pushClass(t,"scrollable"),wrapEl(e,t)})}function backToTop(){const e=elem("#toTop");window.addEventListener("scroll",()=>{const t=window.scrollY;t>=200?(e.style.display="flex",pushClass(e,active)):deleteClass(e,active)})}function lazyLoadMedia(e=[]){e.forEach(e=>{let t=elems(e);t&&Array.from(t).forEach(function(e){e.loading="lazy"})})}function loadActions(){updateDate(),customizeSidebar(),markExternalLinks(),copyHeadingLink(),makeTablesResponsive(),backToTop(),lazyLoadMedia(["iframe","img"]),doc.addEventListener("click",e=>{let t=e.target,n="color_choice",s=containsClass(t,n);!!s&&setUserColorMode(!0),toggleMenu(e)})}window.addEventListener("load",loadActions())
 </script>
 
 <script src="http://localhost:1313/js/search.min.55bac86931b18ecd2b0a53489a7b202e5bc45a21eecdb5f456fee5af5d263245e875c9f55477b107b198eb9af130aaa78fbdca39fdf6b882883017713f856435.js" async></script>

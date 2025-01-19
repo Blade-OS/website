@@ -11,15 +11,13 @@ fileLink = "content/projects.csv"
 
 # Welcome to **Blade OS**!
 
-A distro based on **Debian** that has everything pre-configured & ready to go.
+A distro based on **Debian** for all you need to do.
 
 ---
 ### Features
-* A pre-configured desktop for ease of use
-* A bunch of useful utilities & apps pre-installed
-* Based on the rock-solid stability of Debian
-* Software allows you to discover, install, & update your apps with ease
-* Supports Debian packages & Flatpaks
+* A pre-configured desktop
+* Useful apps pre-installed
+* Supports Flatpaks out of the box
 
 {{< /column >}}
 
@@ -28,5 +26,4 @@ A distro based on **Debian** that has everything pre-configured & ready to go.
 {{< /column >}}
 {{< /block >}}
 
-#### Download now to get a clean & smooth experience!
-{{< button "download/" "Download" >}}
+{{< button "download/" "Download Blade OS" >}}

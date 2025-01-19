@@ -9,17 +9,19 @@ fileLink = "content/projects.csv"
 weight = 1
 +++
 
-{{< tip >}} Ran into any issues? Create an [issue](https://github.com/Blade-OS/os/issues/new/choose "Open an issue") on our GitHub. {{< /tip >}}
+{{< tip `warning` >}} Blade OS has been falsely flagged by certain anti-malware providers and may prevent downloads. [Learn More](https://github.com/Blade-OS/os/issues/5 "Opens the GitHub issue page."){{< /tip >}}
 
 ## Blade OS 24.2 - Blissful
-Download the latest version of Blade OS.
+A blissful experience.
+
+{{< tip >}}The ISO for 24.3 is coming this Febuary. You can update your system now using the Software app.{{< /tip >}}
 
 ### Features
-* Pre-Configured GNOME Desktop for ease of use
-* A bunch of useful utilities & apps pre-installed like Firefox & LibreOffice
-* Based on the latest & rock-solid stability of Debian bookworm
+* Pre-Configured GNOME Desktop
+* Apps like Firefox are pre-installed
+* Based Debian 12, bookworm
 
-{{< button "https://sourceforge.net/projects/blade-os/files/v24%20-%20blissful/" "Download from SourceForge" >}}
+{{< button "https://sourceforge.net/projects/blade-os/files/" "Download from SourceForge" >}}
 
 ---
 ### Need help?
