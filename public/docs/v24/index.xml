@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blade OS 24 (blissful/bookworm) on Blade OS</title>
-    <link>http://localhost:1313/docs/v24/</link>
+    <link>https://bladeos.xyz/docs/v24/</link>
     <description>Recent content in Blade OS 24 (blissful/bookworm) on Blade OS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/docs/v24/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bladeos.xyz/docs/v24/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installation</title>
-      <link>http://localhost:1313/docs/v24/installing/</link>
+      <link>https://bladeos.xyz/docs/v24/installing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/v24/installing/</guid>
+      <guid>https://bladeos.xyz/docs/v24/installing/</guid>
       <description>&lt;div class=&#34;tip tip_warning&#34;&gt;&#xA;  Installing Blade OS can erase your hard drive. Please make sure you have everything backed up before proceeding.&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;download-the-iso&#34; class=link_owner&gt;&#xA;  Download the ISO&#xA;  &lt;a href=&#34;#download-the-iso&#34; class=&#34;link icon&#34;&gt;&#xA;    &lt;svg&gt;&#xA;      &lt;use xlink:href=&#34;#anchor-link&#34;&gt;&lt;/use&gt;&#xA;    &lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;First, You&amp;rsquo;ll need to download the latest Blade OS ISO, Which can be found here.&lt;/p&gt;&#xA;&lt;a href=&#34;../../../download&#34; class=&#34;button&#34;&gt;Download&lt;/a&gt;&#xA;&#xA;&lt;h2 id=&#34;preparing-the-installation-media&#34; class=link_owner&gt;&#xA;  Preparing the installation media&#xA;  &lt;a href=&#34;#preparing-the-installation-media&#34; class=&#34;link icon&#34;&gt;&#xA;    &lt;svg&gt;&#xA;      &lt;use xlink:href=&#34;#anchor-link&#34;&gt;&lt;/use&gt;&#xA;    &lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;tip&#34;&gt;&#xA;  If you&amp;rsquo;re using a virtual machine, You may skip this step.&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;tip tip_warning&#34;&gt;&#xA;  Burning to external media could potentially erase it. Please make sure you have everything backed up before proceeding.&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;In order to install Blade OS, You&amp;rsquo;ll need an installation media. There&amp;rsquo;s multiple programs that can get the job done.&lt;/p&gt;</description>
     </item>
   </channel>

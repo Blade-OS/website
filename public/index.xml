@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blade OS</title>
-    <link>http://localhost:1313/</link>
+    <link>https://bladeos.xyz/</link>
     <description>Recent content on Blade OS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bladeos.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installation</title>
-      <link>http://localhost:1313/docs/v24/installing/</link>
+      <link>https://bladeos.xyz/docs/v24/installing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/v24/installing/</guid>
+      <guid>https://bladeos.xyz/docs/v24/installing/</guid>
       <description>&lt;div class=&#34;tip tip_warning&#34;&gt;&#xA;  Installing Blade OS can erase your hard drive. Please make sure you have everything backed up before proceeding.&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;download-the-iso&#34; class=link_owner&gt;&#xA;  Download the ISO&#xA;  &lt;a href=&#34;#download-the-iso&#34; class=&#34;link icon&#34;&gt;&#xA;    &lt;svg&gt;&#xA;      &lt;use xlink:href=&#34;#anchor-link&#34;&gt;&lt;/use&gt;&#xA;    &lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;First, You&amp;rsquo;ll need to download the latest Blade OS ISO, Which can be found here.&lt;/p&gt;&#xA;&lt;a href=&#34;../../../download&#34; class=&#34;button&#34;&gt;Download&lt;/a&gt;&#xA;&#xA;&lt;h2 id=&#34;preparing-the-installation-media&#34; class=link_owner&gt;&#xA;  Preparing the installation media&#xA;  &lt;a href=&#34;#preparing-the-installation-media&#34; class=&#34;link icon&#34;&gt;&#xA;    &lt;svg&gt;&#xA;      &lt;use xlink:href=&#34;#anchor-link&#34;&gt;&lt;/use&gt;&#xA;    &lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;tip&#34;&gt;&#xA;  If you&amp;rsquo;re using a virtual machine, You may skip this step.&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;tip tip_warning&#34;&gt;&#xA;  Burning to external media could potentially erase it. Please make sure you have everything backed up before proceeding.&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;In order to install Blade OS, You&amp;rsquo;ll need an installation media. There&amp;rsquo;s multiple programs that can get the job done.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Download</title>
-      <link>http://localhost:1313/download/</link>
+      <link>https://bladeos.xyz/download/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/download/</guid>
+      <guid>https://bladeos.xyz/download/</guid>
       <description>&lt;div class=&#34;tip tip_warning&#34;&gt;&#xA;  Blade OS has been falsely flagged by certain anti-malware providers and may prevent downloads. &lt;a href=&#34;https://github.com/Blade-OS/os/issues/5&#34; title=&#34;Opens the GitHub issue page.&#34;&gt;Learn More&lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;blade-os-242---blissful&#34; class=link_owner&gt;&#xA;  Blade OS 24.2 - Blissful&#xA;  &lt;a href=&#34;#blade-os-242---blissful&#34; class=&#34;link icon&#34;&gt;&#xA;    &lt;svg&gt;&#xA;      &lt;use xlink:href=&#34;#anchor-link&#34;&gt;&lt;/use&gt;&#xA;    &lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;A blissful experience.&lt;/p&gt;&#xA;&#xA;&lt;div class=&#34;tip&#34;&gt;&#xA;  The ISO for 24.3 is coming this Febuary. You can update your system now using the Software app.&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h3 id=&#34;features&#34; class=link_owner&gt;&#xA;  Features&#xA;  &lt;a href=&#34;#features&#34; class=&#34;link icon&#34;&gt;&#xA;    &lt;svg&gt;&#xA;      &lt;use xlink:href=&#34;#anchor-link&#34;&gt;&lt;/use&gt;&#xA;    &lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Pre-Configured GNOME Desktop&lt;/li&gt;&#xA;&lt;li&gt;Apps like Firefox are pre-installed&lt;/li&gt;&#xA;&lt;li&gt;Based Debian 12, bookworm&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;a href=&#34;https://sourceforge.net/projects/blade-os/files/&#34; class=&#34;button&#34;&gt;Download from SourceForge&lt;/a&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;need-help&#34; class=link_owner&gt;&#xA;  Need help?&#xA;  &lt;a href=&#34;#need-help&#34; class=&#34;link icon&#34;&gt;&#xA;    &lt;svg&gt;&#xA;      &lt;use xlink:href=&#34;#anchor-link&#34;&gt;&lt;/use&gt;&#xA;    &lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../docs/v24/installing/&#34; class=&#34;button&#34;&gt;Install Instructions&lt;/a&gt;&#xA; &lt;a href=&#34;https://github.com/Blade-OS/os/issues/new/choose&#34; class=&#34;button&#34;&gt;Report an issue&lt;/a&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Search</title>
-      <link>http://localhost:1313/search/</link>
+      <link>https://bladeos.xyz/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/</guid>
+      <guid>https://bladeos.xyz/search/</guid>
       <description></description>
     </item>
   </channel>
