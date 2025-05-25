@@ -2,20 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bladeos.xyz/docs/v24/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://bladeos.xyz/docs/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://bladeos.xyz/docs/v24/installing/</loc>
-  </url><url>
-    <loc>https://bladeos.xyz/</loc>
-  </url><url>
-    <loc>https://bladeos.xyz/categories/</loc>
-  </url><url>
-    <loc>https://bladeos.xyz/download/</loc>
-  </url><url>
-    <loc>https://bladeos.xyz/search/</loc>
-  </url><url>
-    <loc>https://bladeos.xyz/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
