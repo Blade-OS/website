@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,13 +45,11 @@
 
 <link rel="stylesheet" href="/css/theme.css" media="all">
 
-
-
-
 <style>
     :root {
         --text-color: #343a40;
         --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
         --background-color: #eaedf0;
         --secondary-background-color: #64ffda1a;
         --primary-color: #007bff;
@@ -60,6 +58,7 @@
          
         --text-color-dark: #e4e6eb;
         --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
         --background-color-dark: #18191a;
         --secondary-background-color-dark: #212529;
         --primary-color-dark: #ffffff;
@@ -81,11 +80,11 @@
         width: 8px;
         background-color: var(--background-color);
     }
-    
+
     ::-webkit-scrollbar-track {
         border-radius: 1rem;
     }
-    
+
     ::-webkit-scrollbar-thumb {
         border-radius: 1rem;
         background: #b0b0b0;
@@ -99,8 +98,14 @@
     }
 </style>
 
+
+
 <meta name="description" content="Categories of Blade OS">
 <link rel="stylesheet" href="/css/list.css" media="all">
+
+
+  
+  
 
   <title>
 Categories | Blade OS
@@ -140,8 +145,6 @@ Categories | Blade OS
             
             <a class="navbar-brand primary-font text-wrap" href="/">
                 
-                <img src="" width="30" height="30"
-                    class="d-inline-block align-top">
                 
                 
             </a>
@@ -170,6 +173,8 @@ Categories | Blade OS
                                 <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Ctrl &#43; k to Search...' aria-label="Search" oninput="searchOnChange(event)">
                             </div>
                         </li>
+                    
+
                     
 
                     
@@ -267,12 +272,7 @@ Categories | Blade OS
 </div><div class="container py-4">
     <div class="row justify-content-center">
         <div class="col-md-4 text-center">
-            <div class="pb-2">
-                <a href="http://localhost:1313/" title="Blade OS">
-                    <img alt="Footer logo" src=""
-                        height="40px" width="40px">
-                </a>
-            </div>
+            
             &copy; 2025  All Rights Reserved
             <div class="text-secondary">
                 Made with
@@ -287,7 +287,8 @@ Categories | Blade OS
             </div>
         </div>
     </div>
-</div></footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+</div>
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');

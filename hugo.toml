@@ -1,7 +1,7 @@
 baseURL = 'https://bladeos.xyz'
 languageCode = 'en-us'
 title = 'Blade OS'
-theme = 'hugo-profile'
+theme = 'compose'
 
 [outputs]
   home = ["HTML", "RSS","JSON"]
