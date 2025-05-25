@@ -1,10 +1,15 @@
 #  menu items
 [[main]]
-  name = "Docs"
-  weight = 2
-  url = "docs/"
+name = "News"
+weight = 3
+url = "news/"
 
-  [[main]]
-  name = "Download"
-  weight = 3
-  url = "download/"
+[[main]]
+name = "Docs"
+weight = 2
+url = "docs/"
+
+[[main]]
+name = "Download"
+weight = 3
+url = "download/"
