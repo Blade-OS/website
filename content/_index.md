@@ -6,7 +6,7 @@ columnTitles = ["Section", "Status", "Author"]
 fileLink = "content/projects.csv"
 +++
 
-{{< tip >}} The Blade OS website has been restored. Thanks for your patience! {{< /tip >}}
+{{< tip >}} Blade OS officialy turned a year old! [See the announcement](./news/_index.md){{< /tip >}}
 
 {{< block "grid-2" >}}
 {{< column >}}

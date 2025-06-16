@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blade OS 25, Gloomy Summit (Pre-release) on Blade OS</title>
-    <link>http://localhost:1313/docs/v25/</link>
+    <link>https://bladeos.xyz/docs/v25/</link>
     <description>Recent content in Blade OS 25, Gloomy Summit (Pre-release) on Blade OS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/docs/v25/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bladeos.xyz/docs/v25/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
